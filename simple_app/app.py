@@ -1,7 +1,20 @@
-from flask import Flask, render_template, request
+# from flask import Flask, request, jsonify
+
+# def create_app():
+#     app = Flask(__name__)
+
+#     @app.route('/recommend', methods=['GET'])
+#     def recommended():
+
+#         return jsonify('1PM')
+
+#     return app
+
+
+
+from flask import Flask, request, jsonify
 
 def create_app():
-    """Create and configure an instance of the Flask application"""
     app = Flask(__name__)
 
     @app.route('/')
