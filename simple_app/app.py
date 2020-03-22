@@ -1,8 +1,3 @@
-# from flask import Flask, request, jsonify
-
-# def create_app():
-#     app = Flask(__name__)
-
 from flask import Flask, request, jsonify
 
 def create_app():
@@ -17,7 +12,4 @@ def create_app():
 
         return jsonify('1PM')
 
-    # return app
-
-  
     return app
