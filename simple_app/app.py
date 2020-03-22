@@ -6,6 +6,6 @@ def create_app():
 
     @app.route('/')
     def root():
-        return True
+        return "Did not crash"
 
     return app
